@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE4751728FE7ED400773459 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFE4751628FE7ED400773459 /* main.cpp */; };
+		AFF817CD28FE8C320091C1AD /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE4752328FE838600773459 /* libGLEW.a */; };
+		AFF817CE28FE8C350091C1AD /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE4752428FE838600773459 /* libglfw3.a */; };
+		AFF817CF28FE8C370091C1AD /* libfmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE4752028FE807700773459 /* libfmt.a */; };
+		AFF817D728FF79F70091C1AD /* libglad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF817D628FF79F70091C1AD /* libglad.a */; };
+		AFF817D928FF92E30091C1AD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE4752728FE857B00773459 /* OpenGL.framework */; };
+		AFF817DA28FF93540091C1AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF817C128FE86270091C1AD /* Cocoa.framework */; };
+		AFF817DB28FF93690091C1AD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF817C328FE862F0091C1AD /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFE4751128FE7ED400773459 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFE4751328FE7ED400773459 /* OpenGlTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGlTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE4751628FE7ED400773459 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFE4752028FE807700773459 /* libfmt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmt.a; path = "vcpkg/installed/arm64-osx/lib/libfmt.a"; sourceTree = "<group>"; };
+		AFE4752328FE838600773459 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = "vcpkg/installed/arm64-osx/lib/libGLEW.a"; sourceTree = "<group>"; };
+		AFE4752428FE838600773459 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "vcpkg/installed/arm64-osx/lib/libglfw3.a"; sourceTree = "<group>"; };
+		AFE4752728FE857B00773459 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AFF817C128FE86270091C1AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFF817C328FE862F0091C1AD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		AFF817D628FF79F70091C1AD /* libglad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglad.a; path = "vcpkg/installed/arm64-osx/lib/libglad.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE4751028FE7ED400773459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF817DB28FF93690091C1AD /* IOKit.framework in Frameworks */,
+				AFF817DA28FF93540091C1AD /* Cocoa.framework in Frameworks */,
+				AFF817D928FF92E30091C1AD /* OpenGL.framework in Frameworks */,
+				AFF817CD28FE8C320091C1AD /* libGLEW.a in Frameworks */,
+				AFF817CE28FE8C350091C1AD /* libglfw3.a in Frameworks */,
+				AFF817D728FF79F70091C1AD /* libglad.a in Frameworks */,
+				AFF817CF28FE8C370091C1AD /* libfmt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE4750A28FE7ED400773459 = {
+			isa = PBXGroup;
+			children = (
+				AFE4751528FE7ED400773459 /* OpenGlTest */,
+				AFE4751428FE7ED400773459 /* Products */,
+				AFE4751F28FE807700773459 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE4751428FE7ED400773459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4751328FE7ED400773459 /* OpenGlTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE4751528FE7ED400773459 /* OpenGlTest */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4751628FE7ED400773459 /* main.cpp */,
+			);
+			path = OpenGlTest;
+			sourceTree = "<group>";
+		};
+		AFE4751F28FE807700773459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF817D628FF79F70091C1AD /* libglad.a */,
+				AFF817C328FE862F0091C1AD /* IOKit.framework */,
+				AFF817C128FE86270091C1AD /* Cocoa.framework */,
+				AFE4752728FE857B00773459 /* OpenGL.framework */,
+				AFE4752328FE838600773459 /* libGLEW.a */,
+				AFE4752428FE838600773459 /* libglfw3.a */,
+				AFE4752028FE807700773459 /* libfmt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE4751228FE7ED400773459 /* OpenGlTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE4751A28FE7ED400773459 /* Build configuration list for PBXNativeTarget "OpenGlTest" */;
+			buildPhases = (
+				AFE4750F28FE7ED400773459 /* Sources */,
+				AFE4751028FE7ED400773459 /* Frameworks */,
+				AFE4751128FE7ED400773459 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGlTest;
+			productName = OpenGlTest;
+			productReference = AFE4751328FE7ED400773459 /* OpenGlTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE4750B28FE7ED400773459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AFE4751228FE7ED400773459 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AFE4750E28FE7ED400773459 /* Build configuration list for PBXProject "OpenGlTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE4750A28FE7ED400773459;
+			productRefGroup = AFE4751428FE7ED400773459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE4751228FE7ED400773459 /* OpenGlTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE4750F28FE7ED400773459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4751728FE7ED400773459 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFE4751828FE7ED400773459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/vcpkg/installed/arm64-osx/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/vcpkg/installed/arm64-osx/include\"";
+			};
+			name = Debug;
+		};
+		AFE4751928FE7ED400773459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/vcpkg/installed/arm64-osx/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/vcpkg/installed/arm64-osx/include\"";
+			};
+			name = Release;
+		};
+		AFE4751B28FE7ED400773459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EN6WKMF8R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vcpkg/installed/arm64-osx/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFE4751C28FE7ED400773459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EN6WKMF8R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vcpkg/installed/arm64-osx/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE4750E28FE7ED400773459 /* Build configuration list for PBXProject "OpenGlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4751828FE7ED400773459 /* Debug */,
+				AFE4751928FE7ED400773459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE4751A28FE7ED400773459 /* Build configuration list for PBXNativeTarget "OpenGlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4751B28FE7ED400773459 /* Debug */,
+				AFE4751C28FE7ED400773459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE4750B28FE7ED400773459 /* Project object */;
+}
